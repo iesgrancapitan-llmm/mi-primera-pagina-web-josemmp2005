@@ -1,7 +1,7 @@
 # UD2 A1 Mi primera página Web
 
-## hoating
-[text](https://refactored-winner-734jlz7.pages.github.io/)
+## hosting
+[LINK](https://refactored-winner-734jlz7.pages.github.io/)
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
