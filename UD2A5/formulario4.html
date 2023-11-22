@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="José Maria Mayén Pérez">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Controles de Formularios</h1>
+    <form action="">
+        <hr>
+        <p>Datos personales</p>
+        <p>Nombre: <input type="text" name="name_control" id="box" autofocus required  class="box"/></p>
+        <p>Correo electrónico: <input type="email" name="email_control" required /></p>
+        <p>URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" /></p>
+        <p>Modulos
+            <select required>
+                <option value="">Sevilla</option>
+                <option value="SI">Cordoba</option>
+                <option value="BD">Jaén</option>
+                <option value="LDM">Málaga</option>
+                <option value="PR">Huelva</option>
+                <option value="ED">Cadiz</option>
+                <option value="ED">Almería</option>
+                <option value="ED">Granada</option>
+            </select>
+        </p>
+        <br>
+        <hr>
+        <p>Otros Datos</p>
+        <p>Fecha: <input type="date" name="date_control" /></p>
+        <p>Tiempo: <input type="time" name="time_control" /></p>
+        <p>Fecha y hora: <input type="datetime" name="datetime_control" /></p>
+        <p>Mes: <input type="month" name="month_control" /></p>
+        <p>Semana: <input type="week" name="week_control" /></p>
+        <p> Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" /></p>
+        <p>Teléfono: <input type="tel" name="tel_control" /></p>
+        <p>Término de búsqueda: <input type="search" name="search_control" /></p>
+        <p> Color favorito: <input type="color" name="color_control" /></p>
+        <br>
+        <hr>
+        <p>Otros Controles</p>
+        <label for="Aficiones">Aficiones<input type="checkbox" name="checkbox-control" id="css" value="CSS" /></label>
+        <label for="Cine">Cine<input type="checkbox" name="checkbox-control" id="html" value="HTML" /></label>
+        <label for="Deporte">Deporte<input type="checkbox" name="checkbox-control" id="html" value="HTML" /></label>
+        <br>
+        <br>
+        <br>
+        <p>Forma de Pago</p>
+        <label>Visa: <input type="radio" name="pago" id=""></label>
+        <label>American Express: <input type="radio" name="pago" id=""></label>
+        <label>MasterCard: <input type="radio" name="pago" id="html"></label>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+
+</html>
