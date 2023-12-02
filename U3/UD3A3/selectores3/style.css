@@ -1,0 +1,27 @@
+/* style.css */
+/* author: José María Mayén Pérez */
+a {
+    color: red;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: green;
+}
+  
+a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: underline;
+}
+  
+a:focus {
+    color: blue;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+}

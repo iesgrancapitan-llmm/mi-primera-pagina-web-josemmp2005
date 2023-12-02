@@ -1,0 +1,38 @@
+/* style.css */
+/* author: José María Mayén Pérez */
+tr :nth-of-type(2){
+    background-color: red;
+}
+
+tr :nth-of-type(3) {
+    background-color: green;
+}
+
+tr  :last-child{
+    background-color: blue;
+}
+
+#fila1 {
+    color: teal;
+}
+#fila2 {
+    color: red;
+}
+#fila3 {
+    color: blue;
+}
+#fila4 {
+    color: orange;
+}
+#fila5 {
+    color: purple;
+}
+#fila6 {
+    color: olive;
+}
+#fila7 {
+    color: fuchsia;
+}
+#fila8 {
+    color: green;
+}

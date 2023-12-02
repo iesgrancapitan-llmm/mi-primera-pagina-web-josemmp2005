@@ -1,0 +1,61 @@
+/* style.css */
+/* author: José María Mayén Pérez */
+body{
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 10% 40% 20% 20% 20%;
+}
+
+header{
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  background-color: antiquewhite;
+}
+
+h1{
+  text-align: center  ;
+}
+
+nav{
+  grid-column-start: 1;
+  grid-row: 2;
+  grid-column-end: span 5;
+  text-align: center;
+  background-color: rgb(187, 214, 223);
+}
+
+nav img {
+  display: block;
+  margin: auto;
+}
+
+h3{
+  text-align: center  ;
+}
+
+nav img{
+  align-content: center;
+}
+
+section{
+  grid-column-start: 1;
+  grid-row: 3;
+  grid-column-end: -2;
+  background-color: lightcoral;
+
+}
+
+aside { 
+  grid-row: 3;
+  grid-column-start:4;
+  background-color: lightgreen;
+  grid-column-end: span 2;
+}
+
+footer{
+  grid-column-start: 1;
+  grid-row: 4;
+  grid-column-end: span 5;
+  background-color: rgb(188, 197, 205);
+  grid-row-end: span 2;
+}

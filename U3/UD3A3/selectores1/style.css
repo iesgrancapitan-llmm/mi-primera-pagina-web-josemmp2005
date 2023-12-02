@@ -1,0 +1,27 @@
+/* style.css */
+/* author: José María Mayén Pérez */
+p {
+  color: grey;
+}
+
+#primero p {
+  color:rgb(156, 156, 227);
+}
+
+a {
+  color: red;
+}
+
+em.especial {
+    color: yellow;
+    background: black;
+  }
+
+#primero em {
+  color: blue;
+  background-color: lightyellow;
+}
+
+.normal span {
+  font-weight: bold;
+} 
