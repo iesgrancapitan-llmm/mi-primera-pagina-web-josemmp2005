@@ -1,0 +1,61 @@
+/* Estilos del Encabezado */
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilos de Sección */
+section {
+    border: solid red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Estilos de Encabezados */
+h1 {
+    background-color: green;
+}
+
+h2 {
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: span 5;
+}
+
+/* Estilos de la Primera Sección */
+section.first {
+    display: grid;
+    grid-template-columns: 10% 10% 60% 10% 10%;
+    grid-template-rows: 10% 90%;
+}
+
+#i {
+    grid-column: 1;
+    grid-row-start: 2;
+    border:solid;
+    background-color: lightgreen;
+    margin-left: 5%;
+}
+#ii {
+    grid-column: 2;
+    grid-row-start: 2;
+    border:solid;
+    background-color: lightgreen;
+}
+
+#d{
+    grid-column-start: 4;
+    border:solid;
+    background-color: lightgreen;
+}
+#dd{
+    grid-column-start: 5;
+    border:solid;
+    padding: 5%;
+    background-color: lightgreen;
+}
+
+p#a{
+    grid-column-start: 3;
+    grid-row-start:2;
+}

@@ -1,0 +1,62 @@
+/*José María Mayén Pérez*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    width: 50%;
+    text-align: center;
+}
+td{
+    border: solid green;
+    width: 10rem;
+}
+tr.planetas_verdes{
+    background-color: lightgreen;
+}
+tr#first :nth-child(3){
+    color: fuchsia;
+}
+form{
+    background: lightblue;
+    border-right: solid purple;
+    margin-right: 66%;
+    padding: 3%;
+}
+ul :nth-child(2){
+    background-color: orange;
+    color: green;
+}
+ol :nth-child(2){
+    background-color: white;
+    color: black;
+}
+pre{
+    color: green;
+    background-color: salmon;
+}
+p#formula{
+    background-color: aquamarine;
+    border: solid salmon;
+    padding: 3%;
+    margin-right: 35%;
+    text-align: right;
+    margin-bottom: 0%;
+}
+footer{
+    font-size: 0.5em;
+    font-family: serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+em{
+    color: orange;
+    font-style: normal;
+    text-transform: uppercase;
+}

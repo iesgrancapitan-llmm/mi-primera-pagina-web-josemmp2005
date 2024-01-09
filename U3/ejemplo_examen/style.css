@@ -1,9 +1,9 @@
 body{
     display: grid;
-grid-template-areas: 
-"header header header header header header"
-"nav main main main main main"
-"nav footer footer footer footer footer";
+    grid-template-areas: 
+    "header header header header header header"
+    "nav main main main main main"
+    "nav footer footer footer footer footer";
     font-family:  arial;
 }
 

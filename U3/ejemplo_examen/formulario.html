@@ -8,17 +8,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
     <body>
-        <form action="">
-            <p>Nombre:<p></p> 
-            <p><input type="text" placeholder="Anacleto Benavente"></p>
-            <p>Elige un mes</p>
-            <p><select required>
-                    <option value="ma">Marzo</option>
-                    <option value="en">Enero</option>
-                    <option value="fe">Febrero</option>
+        <form action="#" method="get">
+            <p><label>Nombre:<input type="text" placeholder="Anacleto Benavente"></label></p> 
+            <p><label>Elige un mes
+            <select required>
+                <option value="en">Enero</option>
+                <option value="fe">Febrero</option>
+                <option value="ma" selected >Marzo</option>
                 </select>
-            </p>
-            <p>Acepto las condiciones: <input type="checkbox" checked></p>
+            </label></p>
+            <p><label>Acepto las condiciones: <input type="checkbox" checked></label></p>
             <input type="submit" value="enviar">
             <input type="reset" value="inicia">
 

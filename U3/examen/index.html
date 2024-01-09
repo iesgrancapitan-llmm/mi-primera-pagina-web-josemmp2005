@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="José Maria Mayén Pérez">
+    <title>José María Mayén Pérez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="https://www.uco.es">UCO</a>
+        <a href="https://www.museodelprado.es">Museo del Prado</a>
+        <a href="https://sysmana.iesgrancapitan.org">Sysmana</a>
+    </nav>
+    <section>
+        <h1>Tabla</h1>
+        <table>
+            <tr id="first">
+                <td>Mercurio</td>
+                <td>Venus</td>
+                <td>Júpiter</td>
+            </tr>
+            <tr class="planetas_verdes">
+                <td>Marte</td>
+                <td>Saturno</td>
+                <td>Urano</td>
+            </tr>
+            <tr>
+                <td colspan="3">Planetas</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h1>Formulario</h1>
+        <form action="" method="get">
+            <p><label>Curso: <input type="text" name="curso" placeholder="HTML y CSS"></label></p>
+            <p><label>Año: <input type="text" name="año" value="2023"></label></p>
+            <p>
+                <label>Elige un trimestre:
+                    <select>
+                        <option value="pri">Primero</option>
+                        <option value="seg">Segundo</option>
+                        <option value="ter" selected>Tercero</option>
+                    </select>
+                </label>
+            </p>
+            <p><label>Español: <input type="radio" name="español" value="esp"></label></p>
+            <p><label>Inglés: <input type="radio" name="ingles" value="ing"></label></p>
+            <p><label>Acepto las condiciones: <input type="checkbox" name="condiciones" checked></label></p>
+            <input type="submit" value="Envía">
+            <input type="reset" value="Inicia">
+        </form>
+    </section>
+    <section>
+        <h1>Una lista</h1>
+        <ul>
+            <li>Primavera</li>
+            <li>Verano</li>
+            <li>Otoño
+                <ol>
+                    <li>Septiembre</li>
+                    <li>Octubre</li>
+                    <li>Noviembre</li>
+                    <li>Diciembre</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>Variado</h1>
+        <pre>
+            let i = 5;
+            if (i &lt; 10 && i &gt; 0)
+              return"Single Digit Number"
+        </pre>
+        <p id="formula">La formula química del agua: H<sup>2</sup>O</p>
+    </section>
+    <footer>
+        <p>Autor: <em>José María</em> Mayén Pérez</p>
+    </footer>
+</body>
