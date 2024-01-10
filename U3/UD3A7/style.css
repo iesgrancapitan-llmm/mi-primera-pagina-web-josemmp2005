@@ -7,22 +7,19 @@ body {
 }
 
 .grid-item1 {
-    background: lightblue;
     text-align: center;
-    border: black 5px solid;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
     margin-bottom: 0%;
-    padding: 2%;
-
+    padding: 6%;
+    color: red;
 }
 
 .grid-item2 {
-    background: grey;
     text-align: center;
     border: black 5px solid;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .grid-item3 {
@@ -133,4 +130,57 @@ body {
     grid-column-end: span 5;
     grid-row: 6;
     padding-top: 2%;
+}
+
+/* COLORES MODULOS */
+.si{
+    background-color: rgb(0, 150, 95);
+    border-color: rgb(227, 0, 0);
+    border-width: 3px;
+
+}
+.ldm{
+    background-color: rgb(173, 177, 94);
+    border-color: rgb(136, 215, 135);
+    border-width: 3px; 
+}
+.ed{
+    background-color: rgb(36, 46, 98);
+    border-color: rgb(112, 98, 98);
+    border-width: 3px; 
+    color: white
+}
+.fol{
+    background-color: rgb(96, 37, 90);
+    border-color: rgb(0, 0, 0);
+    border-width: 3px; 
+    color: white
+}
+.bd{
+    background-color: #7f7fbe;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px; 
+    color: white 
+}
+
+.pr{
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px; 
+    color: black 
+}
+.hora{
+    background-color: rgb(147, 121, 121);
+    border-style: dotted;
+    border-color: blue;
+    border-width: 3px;
+}
+.dias{
+    background-color: rgb(186, 157, 213);
+    border: dashed
+}
+.recreo{
+    background-color: rgb(149, 88, 88);
+    border-color: green;
+    border-width: 3px;
 }
