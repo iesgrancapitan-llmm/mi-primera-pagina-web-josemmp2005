@@ -38,6 +38,8 @@ Se nos quedaria algo asi
 
 - Fichero atom
 
+[Wired](wired%20atom.rss)
+
 
 ### 5. Toma cada uno de los ficheros RSS y comprueba su validez
 - Fichero rss válido
@@ -50,10 +52,12 @@ Se nos quedaria algo asi
   - fuente
   - imagen validator
   
+  ![alt](wired%20atom%20validator.png)
 ### 6. Haz un listado de las etiquetas principales, debidamente organizadas
 - Fichero rss
   
-channel, item, title, link, description
+channel, item, title, link, description.
 
 - Fichero atom
 
+channel, item, atom:link, category.
