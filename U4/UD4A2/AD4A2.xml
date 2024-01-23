@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ejemplo_rss</title>
+        <link>https://refactored-winner-734jlz7.pages.github.io/</link>
+        <description>github pages</description>
+
+        <author>Jose Maria</author>
+        <category>GITHUB</category>
+
+        <lastBuildDate>Tue, 23 Sep 2024 10:10:01 GMT</lastBuildDate>
+        <managingEditor>a23mapejo@iesgrancapitan.org</managingEditor>
+
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+        </skipHours>
+        <enclosure
+            url="https://raw.githubusercontent.com/iesgrancapitan-llmm/mi-primera-pagina-web-josemmp2005/main/code-markup.jpg"
+            length="123456" type="image/jpeg" />
+
+        <item>
+            <title>UD3A7(Horario-Grid)</title>
+            <description>UD3A7(Horario-Grid)</description>
+            <link>https://refactored-winner-734jlz7.pages.github.io/U3/UD3A7/horario.html</link>
+        </item>
+        <item>
+            <title>Modelo de Caja</title>
+            <description>Modelo de Caja</description>
+            <link>
+                https://refactored-winner-734jlz7.pages.github.io/U3/UD3A6/modelocaja2/modelocaja2.html</link>
+        </item>
+        <item>
+            <title>Ejemplo Examen</title>
+            <description>Ejemplo Examen</description>
+            <link>https://refactored-winner-734jlz7.pages.github.io/U3/ejemplo_examen/ejemplo.html</link>
+        </item>
+    </channel>
+</rss>
