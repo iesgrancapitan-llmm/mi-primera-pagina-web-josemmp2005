@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+        <title>ejemplo_atom</title>
+        <subtitle>Esto es un ejemplo de atom</subtitle>
+        <link href="https://refactored-winner-734jlz7.pages.github.io/U3/index.html"/>
+        <updated>2024-01-27T18:30:02Z</updated>
+        <author>
+                <name>Jose Maria Mayen Perez</name>
+                <email>a23mapejo@iesgrancapitan.org</email>
+        </author>
+        <id>"https://refactored-winner-734jlz7.pages.github.io/U3/index.html"</id>
+
+        <entry>
+                <title>Ejemplo 1</title>
+                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/UD3A4/template_areas.html"/>
+                <id>https://refactored-winner-734jlz7.pages.github.io/U3/UD3A4/template_areas.html</id>
+                <updated>2024-01-27T18:30:02Z</updated>
+                <summary>Ejemplo</summary>
+        </entry>
+        <entry>
+                <title>Ejemplo 2</title>
+                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/css_garden/css_garden.html"/>
+                <id>https://refactored-winner-734jlz7.pages.github.io/U3/css_garden/css_garden.html</id>
+                <updated>2024-01-27T18:35:42Z</updated>
+                <summary>Ejemplo</summary>
+        </entry>
+        <entry>
+                <title>Ejemplo 1</title>
+                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/css_grid/css_grid.html"/>
+                <id>https://refactored-winner-734jlz7.pages.github.io/U3/css_grid/css_grid.html</id>
+                <updated>2024-01-27T18:33:12Z</updated>
+                <summary>Ejemplo</summary>
+        </entry>
+        <entry>
+                <title>Ejemplo 1</title>
+                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/UD3A6/modelocaja1/modelocaja1.html"/>
+                <id>https://refactored-winner-734jlz7.pages.github.io/U3/UD3A6/modelocaja1/modelocaja1.html</id>
+                <updated>2024-01-27T18:30:12Z</updated>
+                <summary>Ejemplo</summary>
+        </entry>
+
+</feed>
