@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "file:/C:/Users/Usuario/Desktop/dtd_externo.dtd">
+<alumnos>
+  <alumno expediente ="A001">
+    <nombre>Jose M</nombre>
+    <apellido>Mayen</apellido>
+    <ciclo>DAW</ciclo>
+    <nota_final>10</nota_final>  
+  </alumno>
+  <alumno>  
+    <nombre>Pepe</nombre>
+    <apellido>Perez</apellido>
+    <ciclo>ASIR</ciclo>
+    <nota_media>8</nota_media>  
+  </alumno>
+</alumnos>
