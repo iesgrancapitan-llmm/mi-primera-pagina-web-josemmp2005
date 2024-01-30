@@ -23,8 +23,10 @@ Se nos quedaria algo asi
 ![alt](Captura%20de%20pantalla%202024-01-17%20104514.png)
 
 ### 2. Añade a la categoría de noticias
-- Añade al menos 3 fuentes relacionadas con las noticias. 
- 
+- Añade al menos 3 fuentes relacionadas con las noticias.
+
+![alt](pop.png)
+
 ### 3. Añade la fuente de una administración concreta
 ![alt](Captura%20de%20pantalla%202024-01-17%20104439.png)
 
@@ -55,9 +57,22 @@ Se nos quedaria algo asi
   ![alt](wired%20atom%20validator.png)
 ### 6. Haz un listado de las etiquetas principales, debidamente organizadas
 - Fichero rss
-  
-channel, item, title, link, description.
-
+  - rss
+    - channel
+      - title
+      - link
+      - description
+      - item
 - Fichero atom
-
-channel, item, atom:link, category.
+  - feed
+    - title
+    - link
+    - subtitle
+    - language
+    - category
+    - entry
+      - title
+      - link
+      - sumary
+      - published
+      - author
