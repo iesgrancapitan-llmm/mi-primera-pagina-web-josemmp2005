@@ -1,0 +1,51 @@
+<!ELEMENT Factura (cabecera, apunte+)>
+<!ELEMENT cabecera (fecha, cliente)>
+<!ATTLIST cabecera
+          factura_id CDATA #REQUIRED>
+<!ELEMENT cliente (direccion)>
+<!ATTLIST cliente
+            cliente_id CDATA #REQUIRED
+            nombre CDATA #IMPLIED
+            telefono CDATA #IMPLIED>
+<!ELEMENT fecha (mes, dia, anno)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+<!ELEMENT direccion (nombre_via, numero, localidad, provincia, cp, pais)>
+<!ELEMENT nombre_via (#PCDATA)>
+<!ATTLIST nombre_via
+          tipovia CDATA #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT apunte (concepto)>
+<!ATTLIST apunte
+          descuento CDATA #IMPLIED
+          moneda CDATA #IMPLIED
+          precio CDATA #REQUIRED>
+<!ELEMENT concepto (#PCDATA)>
+<!ATTLIST concepto
+          cantidad CDATA #IMPLIED>
+
+
+
+<!--<!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura)>
+<!ATTLIST factura numero CDATA #REQUIRED>
+<!ATTLIST factura fecha CDATA #REQUIRED>
+<!ELEMENT datos-emisor (nombre, cif, telefono)>
+<!ELEMENT datos-cliente (nombre, cif, telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT detalle-factura (linea+)>
+    <!ATTLIST detalle-factura importe CDATA #REQUIRED>
+<!ELEMENT linea (descripcion, cantidad, oferta?, pvp)>
+    <!ATTLIST linea codigo-articulo ID #REQUIRED>
+    <!ATTLIST linea tipo (Libro|DVD|Varios) #IMPLIED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+<!ELEMENT oferta EMPTY>
+-->
