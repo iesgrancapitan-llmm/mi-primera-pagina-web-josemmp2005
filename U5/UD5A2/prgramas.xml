@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+  <programa nombre="Firefox" licencia="GPL MPL" /> <!-- <programa nombre="Firefox" licencia="GPL" licencia="MPL" /> NO SE PUEDEN REPETIR ATRIBUTOS-->
+  <programa nombre="LibreOffice" licencia="LGPL" />
+  <programa nombre="Inkscape" licencia="GPL" /> <!-- <programa nombre="Inkscape" licencia= GPL />-->
+</programas>
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="GPL" licencia="MPL" />
+    <programa nombre="LibreOffice" licencia="LGPL" />
+    <programa nombre="Inkscape" licencia= GPL />
+</programas>-->

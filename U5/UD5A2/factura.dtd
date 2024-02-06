@@ -11,7 +11,6 @@
             cliente_id CDATA #REQUIRED 
             nombre CDATA #IMPLIED 
             telefono CDATA #IMPLIED>
-
 <!ELEMENT direccion (nombre_via, numero, localidad, provincia, cp, pais?)>
 <!ELEMENT nombre_via (#PCDATA)>
 <!ATTLIST nombre_via tipo_via (Calle|Avda|Plaza|Carretera) #DEFAULT "Calle">
