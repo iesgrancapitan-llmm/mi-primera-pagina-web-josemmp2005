@@ -66,6 +66,46 @@ información recogida en una carta de desayunos de un restaurante.
   
 10. Escribe la DTD que permita validar el documento XML que se muestra a continuación. Haz dos versiones en cada caso: DTD externa e interna. Además, se
 sabe que siempre tiene que existir al menos un domicilio, y que el atributo "tipo” es obligatorio, y sólo puede tomar los valores "familiar” o "habitual”.
-   - [documento4.xml](documento4.xml)
+
+      - [documento4.xml](documento4.xml)
   
-11. Los siguientes documentos no son válidos porque contienen uno o dos errores (los errores no están en la DTD interna). Corrige los errores y consigue documentos XML válidos 
+11.  Los siguientes documentos no son válidos porque contienen uno o dos errores (los errores no están en la DTD interna). Corrige los errores y consigue documentos XML válidos 
+
+       - [datos_personales.xml](datos_personales.xml)
+       - [pelicula.xml](pelicula.xml)
+       - [cuadros.xml](cuadros.xml)
+       - [compra.xml](compra.xml)
+       - [jugadores_futbol.xml](jugadores_futbol.xml)
+       - [jugadores_equipo.xml](jugadores_equipo.xml)
+       - [libro.xml](libro.xml)
+       - [inventores.xml](inventores.xml)
+       - [tareas.xml](tareas.xml)
+       - [resoluciones_pantalla](resoluciones_pantalla.xml)
+       - [comic.xml](comic.xml)
+
+12. Se quiere definir un lenguaje de marcas para representar los resultados de una liga de fútbol. La información que se quiere almacenar de cada partido es:
+    
+ El nombre del equipo local
+
+ El nombre del equipo visitante
+
+ Los goles marcados por el equipo local
+
+ Los goles marcados por el equipo visitante
+
+Escribe tres documentos que incluyan los siguientes resultados:
+
+ Nottingham Presa: 0 - Inter de Mitente: 1
+
+ Vodka Juniors: 3 - Sparta da Risa: 3
+
+ Water de Munich: 4 - Esteaua es del grifo: 2
+
+Cada documento incluirá un DTD diferente para representar ese lenguaje de
+marcas:
+
+ DTD en la que no haya atributos, sino únicamente etiquetas
+
+ DTD en la que los goles sean atributos
+
+ DTD en la que toda la información se guarde en forma de atributos
