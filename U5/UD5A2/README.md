@@ -109,3 +109,7 @@ marcas:
  DTD en la que los goles sean atributos
 
  DTD en la que toda la información se guarde en forma de atributos
+
+   - [ej11(1).xml](ej11(1).xml)
+   - [ej11(2).xml](ej11(2).xml)
+   - [ej11(3).xml](ej11(3).xml)
