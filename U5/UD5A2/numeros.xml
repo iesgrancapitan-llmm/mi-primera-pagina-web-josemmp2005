@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE numeros [
-    <!ELEMENT numeros (numero*)>
+    <!ELEMENT numeros (numero+)>
     <!ELEMENT numero (#PCDATA)>
-    <!-- ponemos un asterisco en numero y definimos el elemento numero -->
+    <!-- ponemos un mas en numero y definimos el elemento numero -->
 ]>
 <numeros>
     <numero>25</numero>

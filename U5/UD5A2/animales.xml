@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+    <!ELEMENT animales (animal*)>
+    <!ELEMENT animal (perro, gato)> <!--añadimos animal -->
+    <!ELEMENT perro (#PCDATA)>
+    <!ELEMENT gato (#PCDATA)>   <!-- añadimos la definicion de perro y gato-->
+
+]>
+<animales>
+    <animal>
+        <perro>Caniche</perro>
+        <gato>Siamés</gato>
+    </animal>
+</animales>
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+    <!ELEMENT animales (animal*)>
+    <!ELEMENT animal (#PCDATA)>
+]>
+<animales>
+    <perro>Caniche</perro>
+    <gato>Siamés</gato>
+</animales>-->

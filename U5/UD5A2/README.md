@@ -35,3 +35,37 @@ información recogida en una carta de desayunos de un restaurante.
 
 6. Escribe un documento XML para recoger la siguiente información sobre árboles: 
    - [ej6](ej5.xml)
+
+7. Corrige y registra los errores garantizando que los documentos XML son válidos.
+   - [numeros.xml](numeros.xml)
+   - [letras.xml](letras.xml)
+   - [colores.xml](colores.xml)
+   - [flores.xml](flores.xml)
+   - [animales.xml](animales.xml)
+   - [escritores.xml](escritores.xml)
+   - [musicos.xml](musicos.xml)
+   - [telefonos_emergencia.xml](telefonos_emegercia.xml)
+   - [sistema_solar](sistema_solar.xml)
+
+8. Modifica las descripciones DTD para conseguir documentos XML válidos.
+   - [marcadores.xml](marcadores.xml)
+   - [efemires.xml](efemiredes.xml)
+   - [aeropuertos.xml](aeropuertos.xml)
+   - [vuelos.xml](vuelos.xml)
+   - [reyes_esp](reyes_esp.xml)
+   - [paises.xml](paises.xml)
+   - [colores.xml](colores2.xml)
+   - [contabilidad.xml](contabilidad.xml)
+   - [mensajes.xml](mensajes.xml)
+
+9. Escribe la DTD que permita validar el documento XML que se muestra a continuación. Hacer dos versiones en cada caso: DTD externa e interna.
+    
+   - [documento1.xml](documento1.xml)
+   - [documento2.xml](documento2.xml)
+   - [documento3.xml](documento3.xml)
+  
+10. Escribe la DTD que permita validar el documento XML que se muestra a continuación. Haz dos versiones en cada caso: DTD externa e interna. Además, se
+sabe que siempre tiene que existir al menos un domicilio, y que el atributo "tipo” es obligatorio, y sólo puede tomar los valores "familiar” o "habitual”.
+   - [documento4.xml](documento4.xml)
+  
+11. Los siguientes documentos no son válidos porque contienen uno o dos errores (los errores no están en la DTD interna). Corrige los errores y consigue documentos XML válidos 
