@@ -1,3 +1,4 @@
+# UD5A3 Validación. XSD (XML Schema Definition)
 1. Escribe las definiciones de los siguientes elementos 
 - [ejercicio1.xml](ejercicio1.xml)
 - [ejercicio1.xsd](ejercicio1.xsd)
@@ -51,7 +52,7 @@ decimales.
 - [ejercicio10.xml](ejercicio10.xml)
 - [ejercicio10.xsd](ejercicio10.xsd)
 
-11. 
-- [](https://)
-- [](https://)
+11. Ejercicios 1 XSD - Factura
+- [factura.xml](factura.xml)
+- [factura.xsd](factura.xsd)
   
