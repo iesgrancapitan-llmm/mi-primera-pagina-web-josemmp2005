@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio4.xsd">
+    <persona fecha_nacimiento="2005-02-12">
+        <datos>
+            <nombre>Jose</nombre>
+            <apellidos>Mayen</apellidos>
+            <dni>21023811H</dni>
+        </datos>
+        <comentario>Estudiante 1ºDAW</comentario>
+    </persona>
+</personas>

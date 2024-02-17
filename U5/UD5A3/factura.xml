@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Factura SYSTEM "factura.dtd">
-<Factura>
+<?xml version="1.0" encoding="UTF-8"?>
+<Factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="factura.xsd">
     <cabecera factura_id="12345">
         <fecha>
             <mes>Marzo</mes>
@@ -9,7 +8,7 @@
         </fecha>
         <cliente cliente_id="J123" nombre="Juan García Sánchez" telefono="957-000-111">
             <direccion>
-                <nombre_via >Fragua</nombre_via>
+                <nombre_via tipovia="Calle">Fragua</nombre_via>
                 <numero>6</numero>
                 <localidad>Fernán Núñez</localidad>
                 <provincia>Córdoba</provincia>

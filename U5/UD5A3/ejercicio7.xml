@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio7.xsd">
+    <persona fecha_nacimiento="2005-02-12">
+        <datos>
+            <apellidos>Mayen</apellidos>
+            <dni>21023811H</dni>
+            <nombre>Jose</nombre>
+        </datos>
+        <comentario>Estudiante 1ºDAW</comentario>
+        <formapago metodo="tarjeta">
+            <numero>1123123213123</numero>
+        </formapago>
+        <nota>7</nota>
+    </persona>
+    <persona fecha_nacimiento="2004-02-12">
+        <datos>
+            <nombre>Juan</nombre>
+            <apellidos>Garcia</apellidos>
+            <dni>3129011H</dni>
+        </datos>
+        <comentario>Estudiante 2ºDAW</comentario>
+        <formapago metodo="transferencia">
+            <numero>3621987337126</numero>
+        </formapago>
+        <nota>8.8</nota>
+    </persona>
+</personas>
