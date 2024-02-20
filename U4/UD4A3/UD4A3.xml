@@ -1,42 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-        <title>ejemplo_atom</title>
+        <title>Ejemplo de Atom</title>
         <subtitle>Esto es un ejemplo de atom</subtitle>
-        <link href="https://refactored-winner-734jlz7.pages.github.io/U3/index.html"/>
+        <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/" />
         <updated>2024-01-27T18:30:02Z</updated>
         <author>
                 <name>Jose Maria Mayen Perez</name>
                 <email>a23mapejo@iesgrancapitan.org</email>
         </author>
-        <id>"https://refactored-winner-734jlz7.pages.github.io/U3/index.html"</id>
+        <id>urn:uuid:d91a24e2-32e3-4b7e-87bb-9a0a23299bc4</id>
 
         <entry>
-                <title>Ejemplo 1</title>
-                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/UD3A4/template_areas.html"/>
-                <id>https://refactored-winner-734jlz7.pages.github.io/U3/UD3A4/template_areas.html</id>
-                <updated>2024-01-27T18:30:02Z</updated>
-                <summary>Ejemplo</summary>
-        </entry>
-        <entry>
-                <title>Ejemplo 2</title>
-                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/css_garden/css_garden.html"/>
-                <id>https://refactored-winner-734jlz7.pages.github.io/U3/css_garden/css_garden.html</id>
-                <updated>2024-01-27T18:35:42Z</updated>
-                <summary>Ejemplo</summary>
-        </entry>
-        <entry>
-                <title>Ejemplo 1</title>
-                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/css_grid/css_grid.html"/>
-                <id>https://refactored-winner-734jlz7.pages.github.io/U3/css_grid/css_grid.html</id>
-                <updated>2024-01-27T18:33:12Z</updated>
-                <summary>Ejemplo</summary>
-        </entry>
-        <entry>
-                <title>Ejemplo 1</title>
-                <link href="https://refactored-winner-734jlz7.pages.github.io/U3/UD3A6/modelocaja1/modelocaja1.html"/>
-                <id>https://refactored-winner-734jlz7.pages.github.io/U3/UD3A6/modelocaja1/modelocaja1.html</id>
-                <updated>2024-01-27T18:30:12Z</updated>
-                <summary>Ejemplo</summary>
+                <title>El PSOE y sus socios se apoyan en la respuesta de Suiza al juez
+                        García-Castellón para insistir en que “no hubo terrorismo” en el ‘procés’</title>
+                <link
+                        href="https://elpais.com/espana/2024-02-20/el-psoe-y-sus-socios-se-apoyan-en-la-respuesta-de-suiza-al-juez-garcia-castellon-para-insistir-en-que-no-hubo-terrorismo-en-el-proces.html" />
+                <id>urn:uuid:123e4567-e89b-12d3-a456-426614174000</id>
+                <updated>2024-02-20T11:00:00Z</updated>
+                <summary>La Mesa del Congreso amplía hasta el 7 de marzo el plazo para negociar la
+                        ley de amnistía</summary>
         </entry>
 
+        <entry>
+                <title> A Doncic y Jokic no les va el All-Star: de jugar a la "patata caliente" a
+                        los mates fallados</title>
+                <link
+                        href="https://www.marca.com/baloncesto/nba/2024/02/19/65d29e9e268e3ed0088b4585.html" />
+                <id>urn:uuid:123e4567-e89b-12d3-a456-426614174001</id>
+                <updated>2024-02-20T10:00:00Z</updated>
+                <summary>Las dos estrellas europeas vivieron momentos curiosos durante el partido de
+                        las estrellas</summary>
+        </entry>
+
+        <entry>
+                <title>El Athletic asfixia al Girona, ahoga su reacción y da alas al Real Madrid</title>
+                <link
+                        href="https://www.elmundo.es/deportes/futbol/primera-division/2024/02/19/65d3d1fde4d4d8d55c8b456f.html" />
+                <id>urn:uuid:123e4567-e89b-12d3-a456-426614174001</id>
+                <updated>2024-02-20T10:00:00Z</updated>
+                <summary>El equipo de Míchel paga caros errores defensivos que no alcanza a enmendar
+                        ante un rival letal comandado por Berenguer e Iñaki Williams</summary>
+        </entry>
+
+        <entry>
+                <title> La inversión de Microsoft en España tiene un problema: puede ser pan para
+                        hoy y hambre para mañana</title>
+                <link
+                        href="https://www.xataka.com/empresas-y-economia/inversion-microsoft-espana-tiene-problema-puede-ser-pan-para-hoy-hambre-para-manana" />
+                <id>urn:uuid:123e4567-e89b-12d3-a456-426614174001</id>
+                <updated>2024-02-20T10:00:00Z</updated>
+                <summary>La inversión de Microsoft en España tiene un problema: puede ser pan para
+                        hoy y hambre para mañana </summary>
+        </entry>
 </feed>
