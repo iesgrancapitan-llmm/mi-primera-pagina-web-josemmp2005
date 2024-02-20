@@ -53,6 +53,8 @@ elemento <a> de HTML para incluir en nuestra web que permitirá al usuario compr
 validación de nuestro RSS. 
   
   Adjunta una captura de pantalla con la validación del feed en el validador de W3C.
+
+  ![validacion](Captura%20de%20pantalla%202024-02-20%20172051.png)
   
 ## Publicación
   Para hacerlo accesible a los demás, y una  vez escrito y validado nuestro archivo hay que subirlo al servidor Web. Usa el repositorio con el hosting activo (Tarea UD3 A6. Mi sitio. Github pages) Para ello:
@@ -72,6 +74,7 @@ el siguiente elemento.
 <link href="ud4_a2.xml" rel="alternate" type="application/rss+xml" title="RSS 2.0">  
 ```
 Indica aquí la url de tu sitio web.
+
   
 
   
