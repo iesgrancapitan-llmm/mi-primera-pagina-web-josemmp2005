@@ -75,6 +75,7 @@ el siguiente elemento.
 ```
 Indica aquí la url de tu sitio web.
 
+https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/
   
 
   
@@ -82,6 +83,10 @@ Indica aquí la url de tu sitio web.
 Utiliza el lector/agregador  feedly para añadir el fichero RSS que has creado.
 
   Muestra una captura del contenido de la sindicación del contenido
+
+  ![alt](Captura%20de%20pantalla%202024-02-20%20173516.png)
+  ![alt](Captura%20de%20pantalla%202024-02-20%20173548.png)
+  ![alt](Captura%20de%20pantalla%202024-02-20%20173612.png)
   
   
 De interés:
