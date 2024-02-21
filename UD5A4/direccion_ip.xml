@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="direccion_ip.xsd">
+    <ejemplo>0.0.0.0</ejemplo>
+    <ejemplo>14.255.1.2</ejemplo>
+    <ejemplo>192.168.0.1</ejemplo>
+</ip>

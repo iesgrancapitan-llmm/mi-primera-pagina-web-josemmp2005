@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dni.xsd">
+    <ejemplo>12345678Z</ejemplo>
+    <ejemplo>12345678z</ejemplo>
+    <ejemplo>12345678 Z</ejemplo>
+    <ejemplo>12345678-Z</ejemplo>
+</dni>
