@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decimales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dos_decimales.xsd">
+    <ejemplo>122.23</ejemplo>
+    <ejemplo>888.88</ejemplo>
+    <ejemplo>8.8</ejemplo>
+</decimales>

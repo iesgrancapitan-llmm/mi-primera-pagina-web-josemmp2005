@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matriucla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="matricula.xsd">
+    <ejemplo>1234 BCD</ejemplo>
+    <ejemplo>9238 LSJ</ejemplo>
+    <ejemplo>0931 KSN</ejemplo>
+</matriucla>

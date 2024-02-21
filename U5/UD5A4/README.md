@@ -2,18 +2,25 @@
 
 1. DNI:
    
-[DNI.xml](dni.xml)
+- [DNI.xml](dni.xml)
 
-[DNI.xsd](dni.xsd)
+- [DNI.xsd](dni.xsd)
 
 1. Matrícula: 
-[text](https://)
-[text](https://)
+   
+- [Matricula.xml](matricula.xml)
+
+- [Matricula.xsd](matricula.xsd)
+
 
 1. Dirección IP: 
-[text](https://)
-[text](https://)
+
+- [Direccion_IP.xml](dos_decimales.xml)
+
+- [Direccion_IP.xsd](direccion_ip.xsd)
 
 1. Número de dos decimales máximo:
-2. [text](https://)
-[text](https://)
+   
+- [Dos_decimales.xml](https://)
+   
+- [Dos_decimales.xsd](https://)
