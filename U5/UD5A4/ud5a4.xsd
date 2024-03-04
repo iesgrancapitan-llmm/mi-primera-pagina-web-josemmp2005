@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="ejercicio" type="ejercicioType"/>
+    <xsd:complexType name="ejercicioType">
+        <xsd:sequence>
+            <xsd:element name="dni" type="dniType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="matricula" type="matriculaType" minOccurs="0"
+                maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="ip" type="ipType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="dosDecimales" type="dosDecimalesType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="dniType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{8}[ -]?[A-Za-z]"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="matriculaType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{4} [A-HJ-NPR-TV-Z]{3}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="ipType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern
+                value="(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="dosDecimalesType">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:pattern value="\d+(\.\d{1,2})?"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

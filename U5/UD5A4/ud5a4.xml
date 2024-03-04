@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ud5a4.xsd" ="application/xml" schemans="http://www.w3.org/2001/XMLSchema"?>
+
+<ejercicio>
+    <dni>12345678Z</dni>
+    <dni>12345678z</dni>
+    <dni>12345678 Z</dni>
+    <dni>12345678-Z</dni>
+
+    <matricula>1234 BCD</matricula>
+    <matricula>9238 LSJ</matricula>
+    <matricula>0931 KSN</matricula>
+
+    <ip>0.0.0.0</ip>
+    <ip>14.255.1.2</ip>
+    <ip>192.168.0.1</ip>
+
+    <dosDecimales>122.23</dosDecimales>
+    <dosDecimales>888.88</dosDecimales>
+    <dosDecimales>8.8</dosDecimales>
+</ejercicio>
