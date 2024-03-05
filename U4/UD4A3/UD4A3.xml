@@ -1,56 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Ejemplo de Atom</title>
-    <subtitle>Esto es un ejemplo de atom</subtitle>
-    <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/" />
-    <updated>2024-01-27T18:30:02Z</updated>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xml:lang="es"
+  xml:base="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/">
+  <id>urn:uuid:7f6a400c-b934-11ee-baab-69960a9b2b48</id>
+  <title>
+    Ejemplo de Atom
+  </title>
+  <author>
+    <name>Jose Maria Mayen Perez</name>
+    <email>a23mapejo@iesgrancapitan.org</email>
+  </author>
+  <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/" rel="self" />
+  <updated>2024-01-27T18:30:02Z</updated>
+  <category term="Variety" />
+  <rights>GPL</rights>
+
+  <entry>
+    <id>urn:uuid:123e4567-e89b-12d3-a456-426614174000</id>
+    <title>
+      El PSOE y sus socios se apoyan en la respuesta de Suiza al juez García-Castellón para insistir en que “no hubo terrorismo” en el ‘procés’
+    </title>
+    <content type="image/jpeg" src="https://imagenes.elpais.com/resizer/vLBPOtkSU0tUINuavHkKy6ysloY=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/WVH6R3SU4JD2HOU2PS6GRABZPE.jpg" />
+    <summary>PDF de prueba</summary>
     <author>
-        <name>Jose Maria Mayen Perez</name>
-        <email>a23mapejo@iesgrancapitan.org</email>
+      <name>ElMundo</name>
     </author>
-    <id>urn:uuid:d91a24e2-32e3-4b7e-87bb-9a0a23299bc4</id>
+    <link rel="enclosure"
+      type="application/pdf"
+      hreflang="es"
+      href="https://www.igp.minem.cu/sites/default/files/publicacion/prueba_5.pdf?current=/boletin-geomundo" />
+    <updated>2023-03-12T21:47:00Z</updated>
+    <source>
+      <title>La Mesa del Congreso amplía hasta el 7 de marzo el plazo para negociar la ley de amnistía</title>
+      <link href="https://elpais.com/espana/2024-02-20/el-psoe-y-sus-socios-se-apoyan-en-la-respuesta-de-suiza-al-juez-garcia-castellon-para-insistir-en-que-no-hubo-terrorismo-en-el-proces.html" />
+    </source>
+  </entry>
 
-    <entry>
-        <title>El PSOE y sus socios se apoyan en la respuesta de Suiza al juez García-Castellón para insistir en que “no hubo terrorismo” en el ‘procés’</title>
-        <link href="https://elpais.com/espana/2024-02-20/el-psoe-y-sus-socios-se-apoyan-en-la-respuesta-de-suiza-al-juez-garcia-castellon-para-insistir-en-que-no-hubo-terrorismo-en-el-proces.html" />
-        <id>urn:uuid:123e4567-e89b-12d3-a456-426614174000</id>
-        <updated>2024-02-20T11:00:00Z</updated>
-        <summary>La Mesa del Congreso amplía hasta el 7 de marzo el plazo para negociar la ley de amnistía</summary>
-    </entry>
+  <entry>
+    <id>urn:uuid:123e4567-e89b-12d3-a456-426614174001</id>
+    <title>
+      A Doncic y Jokic no les va el All-Star: de jugar a la "patata caliente" a los mates fallados
+    </title>
+    <summary>Las dos estrellas europeas vivieron momentos curiosos durante el partido de las estrellas</summary>
+    <author>
+      <name>Marca</name>
+    </author>
+    <link rel="alternate" href="https://www.marca.com/baloncesto/nba/2024/02/19/65d29e9e268e3ed0088b4585.html" />
+    <updated>2024-02-20T10:00:00Z</updated>    
+    <source>
+      <title>Marca</title>
+      <link href="https://www.marca.com/baloncesto/nba/2024/02/19/65d29e9e268e3ed0088b4585.html" />
+    </source>
+  </entry>
 
-    <entry>
-        <title>A Doncic y Jokic no les va el All-Star: de jugar a la "patata caliente" a los mates fallados</title>
-        <link href="https://www.marca.com/baloncesto/nba/2024/02/19/65d29e9e268e3ed0088b4585.html" />
-        <id>urn:uuid:123e4567-e89b-12d3-a456-426614174001</id>
-        <updated>2024-02-20T10:00:00Z</updated>
-        <summary>Las dos estrellas europeas vivieron momentos curiosos durante el partido de las estrellas</summary>
-        <link rel="enclosure" type="image/jpeg" title="Foto" href="https://images.eurohoops.net/2021/10/c70fcf51-jokic-doncic.jpg" length="1234" />
-    </entry>
-
-    <entry>
-        <title>El Athletic asfixia al Girona, ahoga su reacción y da alas al Real Madrid</title>
-        <link href="https://www.elmundo.es/deportes/futbol/primera-division/2024/02/19/65d3d1fde4d4d8d55c8b456f.html" />
-        <id>urn:uuid:123e4567-e89b-12d3-a456-426614174002</id>
-        <updated>2024-02-20T10:00:00Z</updated>
-        <summary>El equipo de Míchel paga caros errores defensivos que no alcanza a enmendar ante un rival letal comandado por Berenguer e Iñaki Williams</summary>
-        <link rel="enclosure" title="prueba" type="application/pdf" hreflang="es" href="https://www.igp.minem.cu/sites/default/files/publicacion/prueba_5.pdf?current=/boletin-geomundo" />
-    </entry>
-
-    <entry>
-        <title>La inversión de Microsoft en España tiene un problema: puede ser pan para hoy y hambre para mañana</title>
-        <link href="https://www.xataka.com/empresas-y-economia/inversion-microsoft-espana-tiene-problema-puede-ser-pan-para-hoy-hambre-para-manana" />
-        <id>urn:uuid:123e4567-e89b-12d3-a456-426614174003</id>
-        <updated>2024-02-20T10:00:00Z</updated>
-        <summary>La inversión de Microsoft en España tiene un problema: puede ser pan para hoy y hambre para mañana</summary>
-        <content type="xhtml">
-            <div xmlns="http://www.w3.org/1999/xhtml">
-                <h1>Prueba</h1>
+  <entry>
+    <id>urn:uuid:123e4567-e89b-12d3-a456-426614174003</id>
+    <title>
+      Prueba de HTML en un fichero Atom
+    </title>
+    <author>
+      <name>Jose Maria Mayen Perez</name>
+    </author>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h1>Prueba</h1>
                 <ul>
-                    <li>00:01:00 -- Introducción</li>
-                    <li>00:15:00 -- Hablando de Atom 1.0</li>
-                    <li>00:30:00 -- Ejemplos</li>
+                    <li>Introducción</li>
+                    <li>Hablando de Atom 1.0</li>
+                    <li>Ejemplos</li>
                 </ul>
-            </div>
-        </content>
-    </entry>
+      </div>
+    </content>
+    <updated>2024-02-20T10:00:00Z</updated>
+    <source>
+      <title>Mi primera página web</title>
+      <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/" />
+    </source>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:7f5a400c-b934-11ee-baab-69160a9b2b48</id>
+    <title>
+      La inversión de Microsoft en España tiene un problema: puede ser pan para hoy y hambre para mañana
+    </title>
+    <author>
+      <name>Xataka</name>
+    </author>
+    <summary>Prueba MP3.</summary>
+    <link rel="enclosure" type="audio/mpeg"
+      title="prueba"
+      href="https://inper.mx/descargas/mp3/13DrJavierMancillaENTREVISTAPREMIOMIGUELOTERO.mp3" />
+    <updated>2023-08-12T22:47:00Z</updated>
+    <content type="image/png" src="https://i.blogs.es/dace9e/satya/1366_2000.jpeg" />
+    <source>
+      <title>La inversión de Microsoft en España tiene un problema: puede ser pan para hoy y hambre para mañana.</title>
+      <link href="https://www.xataka.com/empresas-y-economia/inversion-microsoft-espana-tiene-problema-puede-ser-pan-para-hoy-hambre-para-manana" />
+    </source>
+  </entry>
 </feed>
