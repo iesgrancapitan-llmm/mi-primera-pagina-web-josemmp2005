@@ -1,81 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-        <title>ejemplo_rss</title>
-        <link>https://refactored-winner-734jlz7.pages.github.io/</link>
-        <description>Github Pages</description>
-        <language>es</language>
-        <managingEditor>a23mapejo@iesgrancapitan.org (Jose Maria)</managingEditor>
-        <category>GITHUB</category>
-        <lastBuildDate>21 Feb 2024 10:10:01 GMT</lastBuildDate>
-        <skipDays>
-            <day>Saturday</day>
-            <day>Sunday</day>
-        </skipDays>
-        <skipHours>
-            <hour>0</hour>
-            <hour>1</hour>
-            <hour>2</hour>
-            <hour>3</hour>
-            <hour>4</hour>
-        </skipHours>
+  <channel>
+    <image>
+      <url>https://www.mediagroup.es/wp-content/uploads/2016/06/rss.jpg</url>
+      <title>RSS</title>
+      <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-josemmp2005/</link>
+    </image>
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+    <skipHours>
+      <hour>6</hour>
+      <hour>7</hour>
+      <hour>8</hour>
+      <hour>9</hour>
+      <hour>10</hour>
+      <hour>11</hour>
+      <hour>12</hour>
+      <hour>13</hour>
+      <hour>14</hour>
+      <hour>15</hour>
+      <hour>16</hour>
+      <hour>17</hour>
+      <hour>18</hour>
+      <hour>19</hour>
+      <hour>20</hour>
+      <hour>21</hour>
+      <hour>22</hour>
+      <hour>23</hour>
+    </skipHours>
+    <title>
+      Pruebas de fichero RSS
+    </title>
+    <language>es</language>
+    <webMaster>a23mapejo@iesgrancapitan.org (Jose Maria)</webMaster>
+    <category>GITHUB</category>
+    <link>
+        https://github.com/iesgrancapitan-llmm/mi-primera-pagina-web-josemmp2005
+    </link>
+    <description>
+        Github Pages Pruebas
+    </description>
+    
+    <item>
+      <enclosure
+        url="https://phantom-marca.unidadeditorial.es/76e5033caab7de293dd81fba62f26eec/resize/990/f/webp/assets/multimedia/imagenes/2024/02/19/17083725033120.jpg"
+        length="3000" type="image/jpg" />
+      <title>
+        Ricky Rubio recupera la sonrisa en su retorno a la selección española
+      </title>
+      <link>
+        https://www.marca.com/baloncesto/seleccion/2024/02/19/65d3a442e2704edf348b459b.html
+      </link>
+      <description>
+        El base del Barcelona, concentrado en Zaragoza, ya se entrena con el grupo
+        podría reaparecer el jueves ante Letonia o el domingo contra Bélgica en partidos de
+        clasificación para el Europeo 2025
+      </description>
+      <source url="https://www.marca.com/baloncesto/seleccion/2024/02/19/65d3a442e2704edf348b459b.html"/>
+      <pubDate>Fri, 9 Feb 2024 20:58 EST</pubDate>
+    </item>
 
-        <item>
-            <title>Ricky Rubio recupera la sonrisa en su retorno a la selección española</title>
-            <link>
-                https://www.marca.com/baloncesto/seleccion/2024/02/19/65d3a442e2704edf348b459b.html</link>
-            <guid>
-                https://www.marca.com/baloncesto/seleccion/2024/02/19/65d3a442e2704edf348b459b.html</guid>
-            <description>El base del Barcelona, concentrado en Zaragoza, ya se entrena con el grupo
-                podría reaparecer el jueves ante Letonia o el domingo contra Bélgica en partidos de
-                clasificación para el Europeo 2025</description>
-            <pubDate>Fri, 9 Feb 2024 20:58 EST</pubDate>
-            <author>joselumart@gmail.com(José Luis Martinez)</author>
-            <enclosure
-                url="https://phantom-marca.unidadeditorial.es/76e5033caab7de293dd81fba62f26eec/resize/990/f/webp/assets/multimedia/imagenes/2024/02/19/17083725033120.jpg"
-                length="12345" type="image/jpeg" />
-        </item>
-        <item>
-            <title>El PP se prepara para que Feijóo endurezca la oposición contra Sánchez tras el
-                aval de las gallegas </title>
-            <link>
-                https://elpais.com/espana/2024-02-20/el-pp-se-prepara-para-que-feijoo-endurezca-la-oposicion-contra-sanchez-tras-el-aval-de-las-gallegas.html</link>
-            <guid>
-                https://elpais.com/espana/2024-02-20/el-pp-se-prepara-para-que-feijoo-endurezca-la-oposicion-contra-sanchez-tras-el-aval-de-las-gallegas.html</guid>
-            <description>El partido da por hecho que el líder hará como si el traspié sobre la
-                amnistía no hubiera ocurrido y retomará la línea dura contra la medida de gracia. El
-                líder popular dice de Rueda: “Ha demostrado a España que si concentramos el voto en
-                el PP frenamos al independentismo y arrinconamos al sanchismo”</description>
-            <pubDate>Tue, 20 Feb 2024 04:40:00 GMT</pubDate>
-            <author>elgablas@gmail.com(Elsa García de Blas)</author>
-            <enclosure url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" length="12345" type="video/mp4" />
-        </item>
-        <item>
-            <title>Lorenzo pide sancionar a Márquez </title>
-            <link>
-            http://www.elmundo.es/elmundodeporte/2013/10/24/motor/1382609811.html</link>            
-            <guid>
-            http://www.elmundo.es/elmundodeporte/2013/10/24/motor/1382609811.html</guid>
-            <description>El
-            piloto de Yamaha pide que la polémica salida de Márquez tras cambiar de moto no quede
-            impune</description>
-            <pubDate>Thu, 24 Oct 2013 12:55:53 +0200</pubDate>
-            <author>dodel@gmailcom(DoloresDelgado)</author>
-            <enclosure url="https://www.ujaen.es/servicios/negapoyo/sites/servicio_negapoyo/files/uploads/Modelo%20Archivo%20en%20Formato%20Digital.pdf" length="12345" type="application/pdf"/>
-            </item>
-        <item>
-            <title>El primer humano con un implante de Neuralink se recupera bien. Y controla el
-                ratón del PC con sus pensamientos</title>
-            <link>
-                https://www.xataka.com/investigacion/primer-humano-implante-neuralink-se-recupera-bien-controla-raton-pc-sus-pensamientos</link>
-            <guid>
-                https://www.xataka.com/investigacion/primer-humano-implante-neuralink-se-recupera-bien-controla-raton-pc-sus-pensamientos</guid>
-            <description>Los resultados preliminares de ese primer implante en un ser humano son
-                prometedores
-                Neuralink plantea una potencial solución a enfermedades como ELA y a trastornos como
-                la esquizofrenia o el autismo</description>
-            <pubDate>Tue, 20 Feb 2024 16:40:39 +0100</pubDate>
-            <author>javipas@gmail.com(Javier Pastor)</author>
-        </item>
-    </channel>
+    <item>
+      <enclosure
+        url="https://estaticos-cdn.prensaiberica.es/clip/42ad30c2-bc58-4a0a-b2e5-cb0f653ab032_alta-libre-aspect-ratio_default_0.jpg"
+        length="3000" type="image/jpg" />
+      <title>
+        El PP se prepara para que Feijóo endurezca la oposición contra Sánchez tras el
+        aval de las gallegas
+      </title>
+      <link>
+        https://elpais.com/espana/2024-02-20/el-pp-se-prepara-para-que-feijoo-endurezca-la-oposicion-contra-sanchez-tras-el-aval-de-las-gallegas.html
+      </link>
+      <description>
+        El partido da por hecho que el líder hará como si el traspié sobre la
+        amnistía no hubiera ocurrido y retomará la línea dura contra la medida de gracia. El
+        líder popular dice de Rueda: “Ha demostrado a España que si concentramos el voto en
+        el PP frenamos al independentismo y arrinconamos al sanchismo”
+      </description>
+      <source url="https://elpais.com/espana/2024-02-20/el-pp-se-prepara-para-que-feijoo-endurezca-la-oposicion-contra-sanchez-tras-el-aval-de-las-gallegas.html">Link al articulo</source>
+      <pubDate>Tue, 20 Feb 2024 04:40:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <enclosure
+        url="https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
+        length="3000" type="video/mp4" />
+      <title>
+        Lorenzo pide sancionar a Márquez
+      </title>
+      <link>
+        http://www.elmundo.es/elmundodeporte/2013/10/24/motor/1382609811.html
+      </link>
+      <description>
+        El piloto de Yamaha pide que la polémica salida de Márquez tras cambiar de moto no quede
+        impune
+      </description>
+      <source url="http://www.elmundo.es/elmundodeporte/2013/10/24/motor/1382609811.html"></source>
+      <pubDate>Thu, 24 Oct 2013 12:55:53 +0200</pubDate>
+    </item>
+
+    <item>
+      <enclosure
+        url="https://i.blogs.es/97bbfa/ne1/1200_800.jpeg"
+        length="3000" type="image/jpg" />
+      <title>
+        El primer humano con un implante de Neuralink se recupera bien. Y controla el ratón del PC con sus pensamientos
+      </title>
+      <link>
+        https://www.xataka.com/investigacion/primer-humano-implante-neuralink-se-recupera-bien-controla-raton-pc-sus-pensamientos
+      </link>
+      <description>
+        Los resultados preliminares de ese primer implante en un ser humano son
+        prometedores Neuralink plantea una potencial solución a enfermedades como ELA y a trastornos como
+        la esquizofrenia o el autismo
+      </description>
+      <source url="https://www.xataka.com/investigacion/primer-humano-implante-neuralink-se-recupera-bien-controla-raton-pc-sus-pensamientos">Link al articulo</source>
+      <pubDate>Tue, 20 Feb 2024 16:40:39 +0100</pubDate>
+    </item>
+  </channel>
 </rss>
