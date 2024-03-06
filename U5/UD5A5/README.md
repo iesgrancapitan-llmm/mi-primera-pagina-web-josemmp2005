@@ -2,7 +2,7 @@
 
 1. **Indica con una X las afirmaciones verdaderas:**
 
-- [x] Los DTDs son más ricos y poderosos que los XML Schemas
+- [ ] Los DTDs son más ricos y poderosos que los XML Schemas
 
 - [x] Los DTDs están escritos de acuerdo a la sintaxis XML
 
@@ -10,7 +10,7 @@
 
 - [x] XML Schemas soportan namespaces
 - [ ] XML Schemas tienen el nodo raíz schema con la URL que contiene la definición de todos los elementos y atributos que se pueden utilizar en un esquema. Eso quiere decir que para programar en XML se necesita estar conectado a Internet.
-- [ ] En XSD, el atributo xmlns crea un espacio de nombres para cada URL referenciada. Así si hubiese dos elementos con el mismo nombre se diferencian claramente.
+- [x] En XSD, el atributo xmlns crea un espacio de nombres para cada URL referenciada. Así si hubiese dos elementos con el mismo nombre se diferencian claramente.
 
 
 
