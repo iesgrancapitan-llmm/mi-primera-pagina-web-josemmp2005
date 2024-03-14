@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="pelicula" type="peliculaTipo"/>
+    <xs:element name="nacionalidad" />
+    <xs:element name="clasificación" type="xs:string" />
+    <xs:element name="proyecto" type="proyectoTipo" default="en_progreso" />
+    <xs:element name="contacto" type="contactoTipo" />
+    <xs:element name="título" type="tituloTipo"></xs:element>
+
+    <xs:attribute name="anno" type="xs:string" />
+    <xs:attribute name="importante" type="xs:boolean" default="false" />
+
+    <xs:complexType name="peliculaTipo">
+        <xs:all>
+            <xs:element name="título" />
+            <xs:element name="nacionalidad" type="xs:string" />
+            <xs:element name="clasificación" type="xs:string" />
+            <xs:element name="proyecto" type="proyectoTipo" default="en_progreso" />
+            <xs:element name="contacto" type="contactoTipo" />
+        </xs:all>
+        <xs:attribute name="anno" type="xs:string" use="optional" />
+    </xs:complexType>
+
+    <xs:complexType name="tituloTipo">
+                <xs:attribute name="importante" type="xs:boolean" use="optional" default="false" />
+    </xs:complexType>
+
+    <xs:simpleType name="proyectoTipo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="en_progreso" />
+            <xs:enumeration value="v" />
+            <xs:enumeration value="pendiente" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="contactoTipo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(6|7|9)\d{8}" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="pelicula">
+    <xs:complexType>
+      <xs:all>
+        <xs:element ref="título"/>
+        <xs:element name="nacionalidad" type="xs:string"/>
+        <xs:element name="clasificación" type="xs:string"/>
+        <xs:element name="proyecto" type="proyectoTipo" default="en_progreso"/>
+        <xs:element name="contacto" type="contactoTipo"/>
+      </xs:all>
+      <xs:attribute name="anno" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="título">
+    <xs:complexType mixed="true">
+      <xs:attribute name="importante" type="xs:boolean" use="optional" default="false"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="proyectoTipo">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="en_progreso"/>
+        <xs:enumeration value="v"/>
+        <xs:enumeration value="pendiente"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="contactoTipo">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="(6|7|9)\d{8}"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+ -->

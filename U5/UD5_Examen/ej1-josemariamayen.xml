@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejemplos SYSTEM "ej1-josemariamayen.dtd">
+<ejemplos>
+    <triangulo base="100" />
+    <mascota numero="5677" />
+    <centro_educativo nombre="IES Gran Capitán" />
+    <abono tipo="cheque">30,4</abono>
+</ejemplos>

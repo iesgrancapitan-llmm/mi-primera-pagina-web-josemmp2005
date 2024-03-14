@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumno [
+   <!ELEMENT alumno (edad, nombre, activo?)>
+   <!ELEMENT edad (#PCDATA)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT activo EMPTY>
+]>
+
+<alumno>
+    <edad>35</edad>
+    <nombre>Emiliana Piedra</nombre>
+</alumno>
+
+<!--Al estar separado (edad, nombre, activo?) por , deben ir 
+en ese orden, para poder ponerlo en cualquier orden pondremos | -->

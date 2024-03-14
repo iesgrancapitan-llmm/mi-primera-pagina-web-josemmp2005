@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej4-josemariamayen.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<pelicula anno="2023">
+    <título importante="false">Oppenheimer</título>
+    <nacionalidad>Reino Unido</nacionalidad>
+    <clasificación>+12</clasificación>
+    <proyecto>pendiente</proyecto>
+    <contacto>957344909</contacto>
+ </pelicula>

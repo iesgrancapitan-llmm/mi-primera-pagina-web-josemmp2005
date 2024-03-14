@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="productos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="producto" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="producto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="descripcion" type="xs:string"/>
+        <xs:element name="cantidad" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="codigoTipo" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="codigoTipo">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="\d{5}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

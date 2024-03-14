@@ -4,7 +4,7 @@
 
 - [ ] Los DTDs son más ricos y poderosos que los XML Schemas
 
-- [x] Los DTDs están escritos de acuerdo a la sintaxis XML
+- [ ] Los DTDs están escritos de acuerdo a la sintaxis XML
 
 - [x] XML Schemas soportan tipos de datos
 

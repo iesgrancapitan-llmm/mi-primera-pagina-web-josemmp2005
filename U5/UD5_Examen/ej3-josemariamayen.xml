@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+,prestamo+)>
+    <!ELEMENT libro (titulo,autor)>
+    <!ATTLIST libro id NMTOKEN #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT prestamo (fecha)>
+    <!ATTLIST prestamo idref NMTOKEN #REQUIRED>
+    <!ELEMENT fecha (#PCDATA)>
+]>
+<biblioteca>
+    <libro id="1">
+        <titulo></titulo>
+        <autor></autor>
+    </libro>
+    <libro id="2">
+        <titulo></titulo>
+        <autor></autor>
+    </libro>
+
+    <libro id="3">
+        <titulo></titulo>
+        <autor></autor>
+    </libro>
+
+    <prestamo idref="1">
+        <fecha>2024-02-12</fecha>
+    </prestamo>
+    <prestamo idref="2">
+        <fecha>2024-02-22</fecha>
+    </prestamo>
+
+    <prestamo idref="3">
+        <fecha>2024-03-02</fecha>
+    </prestamo>
+
+    <prestamo idref="1">
+        <fecha>2024-03-10</fecha>
+    </prestamo>
+
+    <prestamo idref="2">
+        <fecha>2024-03-12</fecha>
+    </prestamo>
+</biblioteca>

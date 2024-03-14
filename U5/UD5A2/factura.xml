@@ -1,5 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Factura SYSTEM "factura.dtd">
+<!DOCTYPE Factura [
+    <!ELEMENT Factura (cabecera, apunte+)>
+    <!ELEMENT cabecera (fecha, cliente)>    
+    <!ATTLIST cabecera
+            factura_id NMTOKEN #REQUIRED>
+    <!ELEMENT fecha (mes | dia | anno)*>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT anno (#PCDATA)>
+    <!ELEMENT cliente (direccion)>
+    <!ATTLIST cliente
+            cliente_id ID #REQUIRED
+            nombre CDATA #IMPLIED
+            telefono CDATA #IMPLIED>
+    <!ELEMENT direccion (nombre_via, numero, localidad, provincia, cp, pais)>
+    <!ELEMENT nombre_via (#PCDATA)>
+    <!ATTLIST nombre_via
+            tipo_via CDATA "Calle">
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT localidad (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cp (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT apunte (concepto)>
+    <!ATTLIST apunte
+            descuento (promocion | regular) "regular"
+            moneda CDATA  #FIXED "euro"
+            precio CDATA #IMPLIED>
+    <!ELEMENT concepto (#PCDATA)>
+    <!ATTLIST concepto
+            cantidad CDATA #IMPLIED>
+]>
+
+
 <Factura>
     <cabecera factura_id="12345">
         <fecha>
