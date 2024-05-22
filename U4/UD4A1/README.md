@@ -28,7 +28,7 @@ Se nos quedaria algo asi
 ![alt](pop.png)
 
 ### 3. Añade la fuente de una administración concreta
-![alt](Captura%20de%20pantalla%202024-01-17%20104439.png)
+![alt](WhatsApp%20Image%202024-05-22%20at%2011.59.40.jpeg)
 
 
 
